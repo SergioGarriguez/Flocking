@@ -252,10 +252,10 @@ MonoBehaviour:
   fishPrefab: {fileID: 4347100551564853833, guid: 77996f35cf4f49c448fb4494a2dc4051, type: 3}
   numFish: 20
   allFish: []
-  neighbourDistance: 0.65
+  neighbourDistance: 7.09
   maxSpeed: 1.77
   minSpeed: 1.41
-  rotationSpeed: 1.92
+  rotationSpeed: 0.31
 --- !u!65 &865522392
 BoxCollider:
   m_ObjectHideFlags: 0
