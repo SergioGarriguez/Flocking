@@ -34,12 +34,12 @@ public class Flocking : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), myManager.rotationSpeed * Time.deltaTime);
         transform.Translate(0.0f, 0.0f, Time.deltaTime * speed);
 
-//        int randomNumber = UnityEngine.Random.Range(0, probabilitySkip);
+        int randomNumber = UnityEngine.Random.Range(0, probabilitySkip);
 
- //       if (randomNumber == 0)
-   //     {
-     //       Flock();
-      //  }
+        //if (randomNumber == 0)
+        //{
+        //    Flock();
+        //}
     }
 
     void Flock()
